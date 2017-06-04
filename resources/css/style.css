@@ -5,7 +5,7 @@ body{
   background-color: black;
 }
 
-a{
+h2, h4, a{
   font-family: Helvetica,sans-serif;
   opacity: 0.9;
   color: seashell;
@@ -42,4 +42,52 @@ a{
 .lien-top a{
   margin-left: 15px;
   opacity: 0.9;
+}
+
+
+/*section one*/
+
+.one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-top: 69px;
+}
+
+.text-mission{
+  background-color: black;
+  padding: 3px;
+}
+
+
+/*section two*/
+
+.two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+.flavour img{
+  height: 200px;
+  width: 300px;
+  margin: 0 10px 0 10px;
+  padding-top: 10px;
 }
